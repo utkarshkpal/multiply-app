@@ -26,12 +26,9 @@ App is structured so that Grid cell is a dumb presentational component adn Grid 
 
 ## Testing:
 
-Using Jest , React Testing library.
-The reason for going RTL is that it enforces good testing practices and helps you test UI components in a user-centric way with build in utilities.
-
-Both Grid and GridCell have been tested.
-
-Further the utility function in utils.ts should be unit tested.
+ - Using Jest , React Testing library.The reason for going RTL is that it enforces good testing practices and helps you test UI components in a user-  centric way with build in utilities.
+ - Both Grid and GridCell have been tested.
+ - Further the utility function in utils.ts should be unit tested.
 
 ## Accessibility
 
