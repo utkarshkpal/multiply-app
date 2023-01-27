@@ -1,6 +1,6 @@
 # Multiply App
 
-This app was bootstrapped with [Create React App](https://github.com/facebook/).
+This app was bootstrapped with [Create React App](https://github.com/facebook/). CRA comes with the setup of React + typescript out of the box and it has setup configured for jest and React Testing Library.
 
 ## Available Scripts
 
