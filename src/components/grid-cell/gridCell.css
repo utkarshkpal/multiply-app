@@ -1,0 +1,14 @@
+.grid-item {
+  font-size: 5rem;
+  cursor: pointer;
+  border: 10px;
+}
+
+.highlighted {
+  color: white;
+  background-color: black;
+}
+
+.selected {
+  border: 8px solid rgb(211 211 1);
+}
