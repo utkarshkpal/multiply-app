@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Multiply App
 
 This app was bootstrapped with [Create React App](https://github.com/facebook/).
 
