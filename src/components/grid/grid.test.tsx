@@ -22,9 +22,13 @@ test("highlights multiples of selected number", () => {
       name: selectedNumber.toString(),
     })
   );
-  const highlightedCells = screen.queryAllByRole("button").filter((cell) => {
-    return cell.classList.contains("highlighted");
-  });
 
-  expect(highlightedCells.length).toBe(multiplesSet.size);
+  const highlightedCells = screen
+    .queryAllByRole("button")
+    .filter((cell) => {
+      return cell.classList.contains("highlighted");
+    })
+    .map((cell) => Number(cell.textContent));
+
+  expect(highlightedCells).toEqual(Array.from(multiplesSet));
 });
