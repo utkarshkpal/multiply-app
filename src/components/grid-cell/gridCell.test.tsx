@@ -3,8 +3,6 @@ import { render, screen } from "@testing-library/react";
 import { gridCellData } from "./mocks";
 import userEvent from "@testing-library/user-event";
 
-
-
 test("renders button with correct gridCell number", () => {
   render(<GridCell {...gridCellData} />);
 
@@ -39,19 +37,7 @@ test("cell has highlighted class if highlighted prop is passed", () => {
   ).toBe(true);
 });
 
-test("cell has highlighted class if highlighted prop is passed", () => {
-  render(<GridCell {...gridCellData} isHighlighted />);
-
-  expect(
-    screen
-      .getByRole("button", {
-        name: `${gridCellData.cellNumber}`,
-      })
-      .classList.contains("highlighted")
-  ).toBe(true);
-});
-
-test("cell has highlighted class if highlighted prop is passed", () => {
+test("cell has selected class if highlighted prop is passed", () => {
   render(<GridCell {...gridCellData} isSelected />);
 
   expect(

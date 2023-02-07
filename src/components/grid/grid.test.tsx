@@ -26,7 +26,5 @@ test("highlights multiples of selected number", () => {
     return cell.classList.contains("highlighted");
   });
 
-  expect(highlightedCells.length).toBe(gridData.numCells / selectedNumber);
+  expect(highlightedCells.length).toBe(multiplesSet.size);
 });
-
-export {};
