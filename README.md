@@ -48,6 +48,7 @@ Both Grid and GridCell have been tested and utility function in utils.js.
 - Added [@axe-core/react](https://www.npmjs.com/package/@axe-core/react) for accessibility testing and reporting any issues in developer console (runs dev env only)
 - Manual tested focus control through keyboard navigation
 - Tested with Mac voice over for screen reader testing
+- Tested with WAVE web a11y testing tool getting 0 errors. : https://wave.webaim.org/report#/https://multiply-app.vercel.app/
 
 ## Performance
 
